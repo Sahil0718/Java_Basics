@@ -16,7 +16,7 @@ public class NormalCheck {
         try {
             System.out.println(divide(numerator, denominators));
         } catch (ArithmeticException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
 
         System.out.println("Well Done!");
